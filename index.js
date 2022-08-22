@@ -57,5 +57,5 @@ app.get("/api/:date", function (req, res) {
 const port = process.env.PORT || 3000
 
 app.listen(port , function () {
-  console.log('Your app is listening on port ' + listener.address().port);
+  console.log('Your app is listening on port ' + port);
 });
